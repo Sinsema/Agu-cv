@@ -1,7 +1,4 @@
-# Agu-cv
-La página web donde alojo mi CV / The webpage where my CV is hosted
-
-# 🧠 CV Web Interactivo de Agu
+# 🧠 Mi CV Web Interactivo
 ¡Bienvenido al repositorio de mi currículum web! Este proyecto es más que una hoja de vida: es una experiencia interactiva que refleja mi estilo, mis habilidades y mi enfoque creativo en el desarrollo web.
 
 # 🚀 Características
@@ -21,20 +18,6 @@ Preferencias guardadas en localStorage para una experiencia personalizada.
 
 Botón de descarga en PDF para compartir fácilmente.
 
-# 🗂️ Estructura del proyecto
-Código
-cv-web/
-├── index.html
-├── styles/
-│   ├── traditional.css
-│   ├── sober.css
-│   ├── ats.css
-├── scripts/
-│   └── main.js
-├── assets/
-│   └── profile.jpg
-├── README.md
-
 # 🛠️ Tecnologías utilizadas
 HTML5
 
@@ -52,7 +35,13 @@ Si te interesa colaborar, conversar o simplemente saludar:
 Email: agu@example.com
 GitHub: @agu
 
-# 🧠 Agu's Interactive CV Web
+# 
+
+
+
+
+#
+# 🧠 My Interactive CV Web
 Welcome to the repository of my personal web-based CV. This isn’t just a résumé—it’s a digital experience that reflects my personality, skills, and design sensibilities.
 
 # 🚀 Features
@@ -71,20 +60,6 @@ Smooth transitions between styles.
 User preferences saved via localStorage.
 
 PDF download button for easy sharing.
-
-# 🗂️ Project Structure
-Código
-cv-web/
-├── index.html
-├── styles/
-│   ├── traditional.css
-│   ├── minimalist.css
-│   ├── ats.css
-├── scripts/
-│   └── main.js
-├── assets/
-│   └── profile.jpg
-├── README.md
 
 # 🛠️ Tech Stack
 HTML5
