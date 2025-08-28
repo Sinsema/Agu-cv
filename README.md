@@ -36,10 +36,6 @@ Email: agu@example.com
 GitHub: @agu
 
 # 
-
-
-
-
 #
 # 🧠 My Interactive CV Web
 Welcome to the repository of my personal web-based CV. This isn’t just a résumé—it’s a digital experience that reflects my personality, skills, and design sensibilities.
