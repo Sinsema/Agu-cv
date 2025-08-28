@@ -1,10 +1,10 @@
 # Agu-cv
 La página web donde alojo mi CV / The webpage where my CV is hosted
 
-🧠 CV Web Interactivo de Agu
+# 🧠 CV Web Interactivo de Agu
 ¡Bienvenido al repositorio de mi currículum web! Este proyecto es más que una hoja de vida: es una experiencia interactiva que refleja mi estilo, mis habilidades y mi enfoque creativo en el desarrollo web.
 
-🚀 Características
+# 🚀 Características
 Modo claro/oscuro conmutables desde la interfaz.
 
 Tres formatos de CV:
@@ -21,7 +21,7 @@ Preferencias guardadas en localStorage para una experiencia personalizada.
 
 Botón de descarga en PDF para compartir fácilmente.
 
-🗂️ Estructura del proyecto
+# 🗂️ Estructura del proyecto
 Código
 cv-web/
 ├── index.html
@@ -35,7 +35,7 @@ cv-web/
 │   └── profile.jpg
 ├── README.md
 
-🛠️ Tecnologías utilizadas
+# 🛠️ Tecnologías utilizadas
 HTML5
 
 CSS3 (modular por formato)
@@ -44,18 +44,18 @@ JavaScript (DOM, eventos, localStorage)
 
 GitHub Pages para despliegue
 
-📦 Cómo verlo en vivo
+# 📦 Cómo verlo en vivo
 Este CV está publicado en GitHub Pages: 👉 https://agu.github.io/cv-web (actualiza con tu enlace real)
 
-📬 Contacto
+# 📬 Contacto
 Si te interesa colaborar, conversar o simplemente saludar:
 Email: agu@example.com
 GitHub: @agu
 
-🧠 Agu's Interactive CV Web
+# 🧠 Agu's Interactive CV Web
 Welcome to the repository of my personal web-based CV. This isn’t just a résumé—it’s a digital experience that reflects my personality, skills, and design sensibilities.
 
-🚀 Features
+# 🚀 Features
 Light/Dark mode toggle for user comfort.
 
 Three distinct CV styles:
@@ -72,7 +72,7 @@ User preferences saved via localStorage.
 
 PDF download button for easy sharing.
 
-🗂️ Project Structure
+# 🗂️ Project Structure
 Código
 cv-web/
 ├── index.html
@@ -86,7 +86,7 @@ cv-web/
 │   └── profile.jpg
 ├── README.md
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 HTML5
 
 CSS3 (modular styling per format)
@@ -95,8 +95,8 @@ JavaScript (DOM manipulation, event handling, localStorage)
 
 GitHub Pages for deployment
 
-🌐 Live Preview
+# 🌐 Live Preview
 Check out the live version here: 👉 https://agu.github.io/cv-web (replace with your actual link)
 
-📬 Contact
+# 📬 Contact
 Want to collaborate, connect, or just say hi? Email: agu@example.com GitHub: @agu
