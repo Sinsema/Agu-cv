@@ -1,62 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css">
-  <title>CV de Agu</title>
+  <meta charset="UTF-8">
+  <title>Cargando...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Estilos base -->
+  <link rel="stylesheet" href="css/base-theme.css">
+  <link id="style-link" rel="stylesheet" href="css/sobrio.css">
+
+  <!-- Estilo para la pantalla de carga -->
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color, #f0f0f0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: sans-serif;
+    }
+
+    .loader {
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .loader img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .loader p {
+      font-size: 1.2em;
+      color: var(--text-color, #333);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Agu</h1>
-    <p>Desarrollador web | Diseñador | Creativo</p>
-    <nav>
-      <button id="toggle-theme">🌙 Cambiar tema</button>
-      <select id="style-selector">
-        <option value="traditional">Tradicional</option>
-        <option value="sober">Sobrio</option>
-        <option value="ats">ATS</option>
-      </select>
-      <button id="download-pdf">📄 Descargar PDF</button>
-    </nav>
-  </header>
+  <div class="loader">
+    <img src="assets/logo.png" alt="Logo">
+    <p>Cargando contenido, por favor espera...</p>
+  </div>
 
-  <main>
-    <section id="perfil">
-      <h2>Perfil</h2>
-      <p>Texto breve sobre tu perfil profesional.</p>
-    </section>
-
-    <section id="experiencia">
-      <h2>Experiencia</h2>
-      <!-- Repetir bloques de experiencia -->
-      <article>
-        <h3>Empresa X</h3>
-        <p>Cargo, fechas, descripción.</p>
-      </article>
-    </section>
-
-    <section id="educacion">
-      <h2>Educación</h2>
-      <article>
-        <h3>Institución Y</h3>
-        <p>Título, fechas.</p>
-      </article>
-    </section>
-
-    <section id="habilidades">
-      <h2>Habilidades</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <!-- etc -->
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>Contacto: agu@email.com | GitHub: @sinsema</p>
-  </footer>
+  <!-- Script para redirigir después de unos segundos -->
+  <script>
+    setTimeout(() => {
+      window.location.href = "home.html"; // Cambia esto al archivo principal
+    }, 3000); // 3 segundos de carga simulada
+  </script>
 </body>
 </html>
