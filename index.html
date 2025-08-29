@@ -3,30 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cargando...</title>
-  <style>
-    body {
-      margin: 0;
-      background: #121212;
-      color: #fff;
-      font-family: 'Segoe UI', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      overflow: hidden;
-    }
-    .loader {
-      font-size: 1.5rem;
-      animation: blink 1s infinite;
-    }
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.3; }
-    }
-  </style>
+  <title>CV de Agu</title>
 </head>
 <body>
-  <div class="loader">Cargando tu CV web...</div>
+  <header>
+    <h1>Agu</h1>
+    <p>Desarrollador web | Diseñador | Creativo</p>
+    <nav>
+      <button id="toggle-theme">🌙 Cambiar tema</button>
+      <select id="style-selector">
+        <option value="traditional">Tradicional</option>
+        <option value="sober">Sobrio</option>
+        <option value="ats">ATS</option>
+      </select>
+      <button id="download-pdf">📄 Descargar PDF</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="perfil">
+      <h2>Perfil</h2>
+      <p>Texto breve sobre tu perfil profesional.</p>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <!-- Repetir bloques de experiencia -->
+      <article>
+        <h3>Empresa X</h3>
+        <p>Cargo, fechas, descripción.</p>
+      </article>
+    </section>
+
+    <section id="educacion">
+      <h2>Educación</h2>
+      <article>
+        <h3>Institución Y</h3>
+        <p>Título, fechas.</p>
+      </article>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <!-- etc -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contacto: agu@email.com | GitHub: @sinsema</p>
+  </footer>
 </body>
 </html>
